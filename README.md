@@ -1,9 +1,11 @@
 # JARKOM_Modul1_T07
 Lapres Praktikum Jarkom Modul 1<br />
-Kelompok T07<br />
+<br />
+![kelompok](https://img.shields.io/badge/Kelompok-T07-00a69a)<br />
+<br />
 Anggota:<br />
-- Fikri Haykal        (05311840000006)<br />
-- Fancista Syarif H.  (05311840000027)<br />
+- ![fikri](https://img.shields.io/badge/Fikri%20Haykal-05311840000006-blueviolet)<br />
+- ![syarif](https://img.shields.io/badge/Fancista%20Syarif%20H.-05311840000027-blueviolet)<br />
 
 ## Soal
 Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
