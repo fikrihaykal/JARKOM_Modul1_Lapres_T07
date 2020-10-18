@@ -39,3 +39,34 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 </ol>
 
 ## Jawab
+<b>A. Display Filter</b><br />
+
+<b>B. Capture Filter</b><br />
+<ol start="11">
+  <li>Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!</li>
+  
+  Pada nomor 11 ini kita mnggunakan ```Capture Filter = port 21``` Hasilnya dapat dilihat pada screenshot dibawah ini.
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/11.PNG">
+  
+  NB : Tidak ada paket yang ditampilkan karena port 21 adalah private server.
+  
+  <li>Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!</li>
+  
+  Pada nomor 12 ini kita mnggunakan ```Capture Filter = src port 80``` Hasilnya dapat dilihat pada screenshot dibawah ini.
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/12.PNG">
+  
+  <li>Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!</li>
+  
+  Pada nomor 13 ini kita mnggunakan ```Capture Filter = dst port 443``` Hasilnya dapat dilihat pada screenshot dibawah ini.
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/13.PNG">
+  
+  <li>Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!</li>
+  
+  Pada nomor 14 ini kita mnggunakan ```Capture Filter = src 192.168.1.10``` ```192.168.1.10``` adalah IP dari laptop yang digunakan.
+  Untuk mengecek berapa IP kita dapat melalui ```ipconfig``` di cmd. Hasilnya dapat dilihat pada screenshot dibawah ini.
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/14.PNG">
+  
+  <li>Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!</li>
+  
+  Pada nomor 15 ini kita menggunakan ```Capture Filter = dst host monta.if.its.ac.id``` Hasilnya dapat dilihat pada screenshot dibawah ini.
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/15.PNG">
