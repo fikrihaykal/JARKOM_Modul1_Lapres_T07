@@ -55,7 +55,7 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
   <i>Penjelasan : </i>Kita hanya perlu memfilter dengan ```http```, setelah itu kita melakukan ```Export Object``` lalu pilih ```http```. Selanjutnya kita tinggal mencari dan menyimpan gambar yang dimaksud<br />
   
   <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/2a.png">
-  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/2b.png">
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/2b.jpg">
   
   <li>Cari username dan password ketika login di "ppid.dpr.go.id"!</li><br />
   
@@ -89,6 +89,8 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
   
   <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/6a.png">
   <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/6b.png">
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/6c.png">
+  <img src="https://github.com/fikrihaykal/JARKOM_Modul1_Lapres_T07/blob/main/Screenshot/6d.png">
   
   <li>Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut!<br />
   Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"</li><br />
