@@ -40,6 +40,69 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 
 ## Jawab
 <b>A. Display Filter</b><br />
+<ol>
+  <li>Sebutkan webserver yang digunakan pada "testing.mekanis.me"!</li>
+  
+  <i>Display filter : </i>```http.host == testing.mekanis.me```<br />
+  <i>Penjelasan : </i>Kita bisa mencari web server dengan filter ```http.host``` dan juga dengan menyertakan alamat webnya. Kemudian kita hanya perlu mencari web servernya setelah melakukan <b>Follow TCP Stream</b> pada salah satu paket.<br />
+  </li>
+  
+  <li>Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!</li>
+  
+  <i>Display filter : </i>```http```<br />
+  <i>Penjelasan : </i>Kita hanya perlu memfilter dengan ```http```, setelah itu kita melakukan ```Export Object``` lalu pilih ```http```. Selanjutnya kita tinggal mencari dan menyimpan gambar yang dimaksud<br />
+  </li>
+  
+  <li>Cari username dan password ketika login di "ppid.dpr.go.id"!</li>
+  
+  <i>Display filter : </i>```http.request.method == POST```<br />
+  <i>Penjelasan : </i>Untuk mendapatkan data yang diinputkan, kita perlu mencari paket yang memiliki request method ```POST```.<br />
+  </li>
+  
+  <li>Temukan paket dari web-web yang menggunakan basic authentication method!</li>
+  
+  <i>Display filter : </i>```http.authbasic```<br />
+  <i>Penjelasan : </i>Untuk mencari web dengan basic authentication, kita perlu menggunakan ```http.authbasic```.<br />
+  </li>
+  
+  <li>Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!</li>
+  
+  <i>Display filter : </i>```http```<br />
+  <i>Penjelasan : </i>Kita bisa mencari web server dengan filter ```http.host``` dan juga dengan menyertakan alamat webnya. Kemudian kita hanya perlu mencari web servernya setelah melakukan <b>Follow TCP Stream</b> pada salah satu paket.<br />
+  </li>
+  
+  <li>Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut)!</li>
+  
+  <i>Display filter : </i>```ftp-data```<br />
+  <i>Penjelasan : </i>Gunakan ```ftp-data``` untuk mencari suatu file. Setelah itu kita perlu mencari file dengan nama ```Answer.zip```. Langkah terakhir adalah melakukan <b>Follow TCP Stream</b> dan menyimpannya sebagai <b>RAW File</b>. Jangan lupa mencari file ```zipkey.txt``` untuk menemukan password zipnya.<br />
+  </li>
+  
+  <li>Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut!<br />
+  Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"</li>
+  
+  <i>Display filter : </i>```ftp-data contains "Yes.pdf"```<br />
+  <i>Penjelasan : </i>Sama seperti soal sebelumnya, kita perlu mencari file dengan ```ftp-data``` tetapi jangan lupa menambahkan ```contains "Yes.pdf"``` sesuai petunjuk. Lalu save as <b>RAW File</b> seperti biasa<br />
+  </li>
+  
+  <li>Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!</li>
+  
+  <i>Display filter : </i>```http```<br />
+  <i>Penjelasan : </i>Kita bisa mencari web server dengan filter ```http.host``` dan juga dengan menyertakan alamat webnya. Kemudian kita hanya perlu mencari web servernya setelah melakukan <b>Follow TCP Stream</b> pada salah satu paket.<br />
+  </li>
+  
+  <li>Cari username dan password ketika login FTP pada localhost!</li>
+  
+  <i>Display filter : </i>```ftp.request.command == USER or ftp.request.command == PASS```<br />
+  <i>Penjelasan : </i>Cari dengan menggunakan command ```USER atau PASS``` seperti di atas.<br />
+  </li>
+  
+  <li>Cari file .pdf di wireshark lalu download dan buka file tersebut!<br />
+  clue: "25 50 44 46"</li>
+  
+  <i>Display filter : </i>```http contains ".pdf"```<br />
+  <i>Penjelasan : </i>Kita hanya perlu memfilter dengan ```contains ".pdf"```. Kita juga bisa secara manual mencari dengan byte ```25 50 44 46``` sesuai petunjuk yang ada.<br />
+  </li>
+</ol>
 
 <b>B. Capture Filter</b><br />
 <ol start="11">
